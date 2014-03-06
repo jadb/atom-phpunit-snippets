@@ -1,12 +1,11 @@
 {
   "name": "phpunit-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Snippets to help you writing PHPUnit tests in Atom.io.",
   "repository": "https://github.com/jadb/atom-phpunit-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
