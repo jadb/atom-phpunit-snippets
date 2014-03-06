@@ -1,0 +1,373 @@
+'.text.html.php, .source.php':
+
+  'assertArrayHasKey':
+    'prefix': 'assertArrayHasKey'
+    'body': '\$this->assertArrayHasKey(${1:\$key}, ${2:\$array}${3:, "${4:message}"});${0:}'
+
+  'assertArrayNotHasKey':
+    'prefix': 'assertArrayNotHasKey'
+    'body': '\$this->assertArrayNotHasKey(${1:\$key}, ${2:\$array}${3:, "${4:message}"});${0:}'
+
+  'assertContains':
+    'prefix': 'assertContains'
+    'body': '\$this->assertContains(${1:\$needle}, ${2:\$haystack}${3:, "${4:message}"${5:, ${6:\$ignoreCase = false}${7:, ${8:\$checkForObjectIdentity = true}${9:, ${10:\$checkForNonObjectIdentity = false}}}}});${0:}'
+
+  'assertAttributeContains':
+    'prefix': 'assertAttributeContains'
+    'body': '\$this->assertAttributeContains(${1:\$needle}, ${2:\$haystack}${3:, "${4:message}"${5:, ${6:\$ignoreCase = false}${7:, ${8:\$checkForObjectIdentity = true}${9:, ${10:\$checkForNonObjectIdentity = false}}}}});${0:}'
+
+  'assertNotContains':
+    'prefix': 'assertNotContains'
+    'body': '\$this->assertNotContains(${1:\$needle}, ${2:\$haystack}${3:, "${4:message}"${5:, ${6:\$ignoreCase = false}${7:, ${8:\$checkForObjectIdentity = true}${9:, ${10:\$checkForNonObjectIdentity = false}}}}});${0:}'
+
+  'assertAttributeNotContains':
+    'prefix': 'assertAttributeNotContains'
+    'body': '\$this->assertAttributeNotContains(${1:\$needle}, ${2:\$haystack}${3:, "${4:message}"${5:, ${6:\$ignoreCase = false}${7:, ${8:\$checkForObjectIdentity = true}${9:, ${10:\$checkForNonObjectIdentity = false}}}}});${0:}'
+
+  'assertContainsOnly':
+    'prefix': 'assertContainsOnly'
+    'body': '\$this->assertContainsOnly(${1:\$type}, ${2:\$haystack}${3:, ${4:\$isNativeType = NULL}${5:, "${6:message}"}});${0:}'
+
+  'assertContainsOnlyInstancesOf':
+    'prefix': 'assertContainsOnlyInstancesOf'
+    'body': '\$this->assertContainsOnlyInstancesOf(${1:\$classname}, ${2:\$haystack}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeContainsOnly':
+    'prefix': 'assertAttributeContainsOnly'
+    'body': '\$this->assertAttributeContainsOnly(${1:\$type}, ${2:\$haystackAttributeName}, ${3:\$haystackClassOrObject}${4:, ${5:\$isNativeType = null}${6:, "${7:message}"}});${0:}'
+
+  'assertNotContainsOnly':
+    'prefix': 'assertNotContainsOnly'
+    'body': '\$this->assertNotContainsOnly(${1:\$type}, ${2:\$haystack}${3:, ${4:\$isNativeType = null}${5:, "${6:message}"}});${0:}'
+
+  'assertAttributeNotContainsOnly':
+    'prefix': 'assertAttributeNotContainsOnly'
+    'body': '\$this->assertAttributeNotContainsOnly(${1:\$type}, ${2:\$haystackAttributeName}, ${3:\$haystackClassOrObject}${4:, ${5:\$isNativeType = null}${6:, "${7:message}"}});${0:}'
+
+  'assertCount':
+    'prefix': 'assertCount'
+    'body': '\$this->assertCount(${1:\$expectedCount}, ${2:\$haystack}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeCount':
+    'prefix': 'assertAttributeCount'
+    'body': '\$this->assertAttributeCount(${1:\$expectedCount}, ${2:\$haystackAttributeName}, ${3:\$haystackClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertNotCount':
+    'prefix': 'assertNotCount'
+    'body': '\$this->assertNotCount(${1:\$expectedCount}, ${2:\$haystack}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeNotCount':
+    'prefix': 'assertAttributeNotCount'
+    'body': '\$this->assertAttributeNotCount(${1:\$expectedCount}, ${2:\$haystackAttributeName}, ${3:\$haystackClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertEquals':
+    'prefix': 'assertEquals'
+    'body': '\$this->assertEquals(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"${5:, ${6:\$delta = 0}${7:, ${8:\$maxDepth = 10}${9:, ${10:\$canonicalize = false}${11:, ${12:\$ignoreCase = false}}}}}});${0:}'
+
+  'assertAttributeEquals':
+    'prefix': 'assertAttributeEquals'
+    'body': '\$this->assertAttributeEquals(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"${6:, ${7:\$delta = 0}${8:, ${9:\$maxDepth = 10}${10:, ${11:\$canonicalize = false}${12:, ${13:\$ignoreCase = false}}}}}});${0:}'
+
+  'assertNotEquals':
+    'prefix': 'assertNotEquals'
+    'body': '\$this->assertNotEquals(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"${5:, ${6:\$delta = 0}${7:, ${8:\$maxDepth = 10}${9:, ${10:\$canonicalize = false}${11:, ${12:\$ignoreCase = false}}}}}});${0:}'
+
+  'assertAttributeNotEquals':
+    'prefix': 'assertAttributeNotEquals'
+    'body': '\$this->assertAttributeNotEquals(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"${6:, ${7:\$delta = 0}${8:, ${9:\$maxDepth = 10}${10:, ${11:\$canonicalize = false}${12:, ${13:\$ignoreCase = false}}}}}});${0:}'
+
+  'assertEmpty':
+    'prefix': 'assertEmpty'
+    'body': '\$this->assertEmpty(${1:\$actual}${2:, "${3:message}"});${0:}'
+
+  'assertAttributeEmpty':
+    'prefix': 'assertAttributeEmpty'
+    'body': '\$this->assertAttributeEmpty(${1:\$haystackAttributeName}, ${2:\$haystackClassOrObject}${3:, "${4:message}"});${0:}'
+
+  'assertNotEmpty':
+    'prefix': 'assertNotEmpty'
+    'body': '\$this->assertNotEmpty(${1:\$actual}${2:, "${3:message}"});${0:}'
+
+  'assertAttributeNotEmpty':
+    'prefix': 'assertAttributeNotEmpty'
+    'body': '\$this->assertAttributeNotEmpty(${1:\$haystackAttributeName}, ${2:\$haystackClassOrObject}${3:, "${4:message}"});${0:}'
+
+  'assertGreaterThan':
+    'prefix': 'assertGreaterThan'
+    'body': '\$this->assertGreaterThan(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeGreaterThan':
+    'prefix': 'assertAttributeGreaterThan'
+    'body': '\$this->assertAttributeGreaterThan(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertGreaterThanOrEqual':
+    'prefix': 'assertGreaterThanOrEqual'
+    'body': '\$this->assertGreaterThanOrEqual(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeGreaterThanOrEqual':
+    'prefix': 'assertAttributeGreaterThanOrEqual'
+    'body': '\$this->assertAttributeGreaterThanOrEqual(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertLessThan':
+    'prefix': 'assertLessThan'
+    'body': '\$this->assertLessThan(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeLessThan':
+    'prefix': 'assertAttributeLessThan'
+    'body': '\$this->assertAttributeLessThan(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertLessThanOrEqual':
+    'prefix': 'assertLessThanOrEqual'
+    'body': '\$this->assertLessThanOrEqual(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeLessThanOrEqual':
+    'prefix': 'assertAttributeLessThanOrEqual'
+    'body': '\$this->assertAttributeLessThanOrEqual(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertFileEquals':
+    'prefix': 'assertFileEquals'
+    'body': '\$this->assertFileEquals(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"${5:, ${6:\$canonicalize = false}${7:, ${8:\$ignoreCase = false}}}});${0:}'
+
+  'assertFileNotEquals':
+    'prefix': 'assertFileNotEquals'
+    'body': '\$this->assertFileNotEquals(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"${5:, ${6:\$canonicalize = false}${7:, ${8:\$ignoreCase = false}}}});${0:}'
+
+  'assertStringEqualsFile':
+    'prefix': 'assertStringEqualsFile'
+    'body': '\$this->assertStringEqualsFile(${1:\$expectedFile}, ${2:\$actualString}${3:, "${4:message}"${5:, ${6:\$canonicalize = false}${7:, ${8:\$ignoreCase = false}}}});${0:}'
+
+  'assertStringNotEqualsFile':
+    'prefix': 'assertStringNotEqualsFile'
+    'body': '\$this->assertStringNotEqualsFile(${1:\$expectedFile}, ${2:\$actualString}${3:, "${4:message}"${5:, ${6:\$canonicalize = false}${7:, ${8:\$ignoreCase = false}}}});${0:}'
+
+  'assertFileExists':
+    'prefix': 'assertFileExists'
+    'body': '\$this->assertFileExists(${1:\$filename}${2:, "${3:message}"});${0:}'
+
+  'assertFileNotExists':
+    'prefix': 'assertFileNotExists'
+    'body': '\$this->assertFileNotExists(${1:\$filename}${2:, "${3:message}"});${0:}'
+
+  'assertTrue':
+    'prefix': 'assertTrue'
+    'body': '\$this->assertTrue(${1:\$condition}${2:, "${3:message}"});${0:}'
+
+  'assertNotTrue':
+    'prefix': 'assertNotTrue'
+    'body': '\$this->assertNotTrue(${1:\$condition}${2:, "${3:message}"});${0:}'
+
+  'assertFalse':
+    'prefix': 'assertFalse'
+    'body': '\$this->assertFalse(${1:\$condition}${2:, "${3:message}"});${0:}'
+
+  'assertNotFalse':
+    'prefix': 'assertNotFalse'
+    'body': '\$this->assertNotFalse(${1:\$condition}${2:, "${3:message}"});${0:}'
+
+  'assertNotNull':
+    'prefix': 'assertNotNull'
+    'body': '\$this->assertNotNull(${1:\$actual}${2:, "${3:message}"});${0:}'
+
+  'assertNull':
+    'prefix': 'assertNull'
+    'body': '\$this->assertNull(${1:\$actual}${2:, "${3:message}"});${0:}'
+
+  'assertClassHasAttribute':
+    'prefix': 'assertClassHasAttribute'
+    'body': '\$this->assertClassHasAttribute(${1:\$attributeName}, ${2:\$className}${3:, "${4:message}"});${0:}'
+
+  'assertClassNotHasAttribute':
+    'prefix': 'assertClassNotHasAttribute'
+    'body': '\$this->assertClassNotHasAttribute(${1:\$attributeName}, ${2:\$className}${3:, "${4:message}"});${0:}'
+
+  'assertClassHasStaticAttribute':
+    'prefix': 'assertClassHasStaticAttribute'
+    'body': '\$this->assertClassHasStaticAttribute(${1:\$attributeName}, ${2:\$className}${3:, "${4:message}"});${0:}'
+
+  'assertClassNotHasStaticAttribute':
+    'prefix': 'assertClassNotHasStaticAttribute'
+    'body': '\$this->assertClassNotHasStaticAttribute(${1:\$attributeName}, ${2:\$className}${3:, "${4:message}"});${0:}'
+
+  'assertObjectHasAttribute':
+    'prefix': 'assertObjectHasAttribute'
+    'body': '\$this->assertObjectHasAttribute(${1:\$attributeName}, ${2:\$object}${3:, "${4:message}"});${0:}'
+
+  'assertObjectNotHasAttribute':
+    'prefix': 'assertObjectNotHasAttribute'
+    'body': '\$this->assertObjectNotHasAttribute(${1:\$attributeName}, ${2:\$object}${3:, "${4:message}"});${0:}'
+
+  'assertSame':
+    'prefix': 'assertSame'
+    'body': '\$this->assertSame(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeSame':
+    'prefix': 'assertAttributeSame'
+    'body': '\$this->assertAttributeSame(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertNotSame':
+    'prefix': 'assertNotSame'
+    'body': '\$this->assertNotSame(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeNotSame':
+    'prefix': 'assertAttributeNotSame'
+    'body': '\$this->assertAttributeNotSame(${1:\$expected}, ${2:\$actualAttributeName}, ${3:\$actualClassOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertInstanceOf':
+    'prefix': 'assertInstanceOf'
+    'body': '\$this->assertInstanceOf(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeInstanceOf':
+    'prefix': 'assertAttributeInstanceOf'
+    'body': '\$this->assertAttributeInstanceOf(${1:\$expected}, ${2:\$attributeName}, ${3:\$classOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertNotInstanceOf':
+    'prefix': 'assertNotInstanceOf'
+    'body': '\$this->assertNotInstanceOf(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeNotInstanceOf':
+    'prefix': 'assertAttributeNotInstanceOf'
+    'body': '\$this->assertAttributeNotInstanceOf(${1:\$expected}, ${2:\$attributeName}, ${3:\$classOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertInternalType':
+    'prefix': 'assertInternalType'
+    'body': '\$this->assertInternalType(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeInternalType':
+    'prefix': 'assertAttributeInternalType'
+    'body': '\$this->assertAttributeInternalType(${1:\$expected}, ${2:\$attributeName}, ${3:\$classOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertNotInternalType':
+    'prefix': 'assertNotInternalType'
+    'body': '\$this->assertNotInternalType(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertAttributeNotInternalType':
+    'prefix': 'assertAttributeNotInternalType'
+    'body': '\$this->assertAttributeNotInternalType(${1:\$expected}, ${2:\$attributeName}, ${3:\$classOrObject}${4:, "${5:message}"});${0:}'
+
+  'assertRegExp':
+    'prefix': 'assertRegExp'
+    'body': '\$this->assertRegExp(${1:\$pattern}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertNotRegExp':
+    'prefix': 'assertNotRegExp'
+    'body': '\$this->assertNotRegExp(${1:\$pattern}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertSameSize':
+    'prefix': 'assertSameSize'
+    'body': '\$this->assertSameSize(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertNotSameSize':
+    'prefix': 'assertNotSameSize'
+    'body': '\$this->assertNotSameSize(${1:\$expected}, ${2:\$actual}${3:, "${4:message}"});${0:}'
+
+  'assertStringMatchesFormat':
+    'prefix': 'assertStringMatchesFormat'
+    'body': '\$this->assertStringMatchesFormat(${1:\$format}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringNotMatchesFormat':
+    'prefix': 'assertStringNotMatchesFormat'
+    'body': '\$this->assertStringNotMatchesFormat(${1:\$format}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringMatchesFormatFile':
+    'prefix': 'assertStringMatchesFormatFile'
+    'body': '\$this->assertStringMatchesFormatFile(${1:\$formatFile}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringNotMatchesFormatFile':
+    'prefix': 'assertStringNotMatchesFormatFile'
+    'body': '\$this->assertStringNotMatchesFormatFile(${1:\$formatFile}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringStartsWith':
+    'prefix': 'assertStringStartsWith'
+    'body': '\$this->assertStringStartsWith(${1:\$prefix}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringStartsNotWith':
+    'prefix': 'assertStringStartsNotWith'
+    'body': '\$this->assertStringStartsNotWith(${1:\$prefix}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringEndsWith':
+    'prefix': 'assertStringEndsWith'
+    'body': '\$this->assertStringEndsWith(${1:\$suffix}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertStringEndsNotWith':
+    'prefix': 'assertStringEndsNotWith'
+    'body': '\$this->assertStringEndsNotWith(${1:\$suffix}, ${2:\$string}${3:, "${4:message}"});${0:}'
+
+  'assertXmlFileEqualsXmlFile':
+    'prefix': 'assertXmlFileEqualsXmlFile'
+    'body': '\$this->assertXmlFileEqualsXmlFile(${1:\$expectedFile}, ${2:\$actualFile}${3:, "${4:message}"});${0:}'
+
+  'assertXmlFileNotEqualsXmlFile':
+    'prefix': 'assertXmlFileNotEqualsXmlFile'
+    'body': '\$this->assertXmlFileNotEqualsXmlFile(${1:\$expectedFile}, ${2:\$actualFile}${3:, "${4:message}"});${0:}'
+
+  'assertXmlStringEqualsXmlFile':
+    'prefix': 'assertXmlStringEqualsXmlFile'
+    'body': '\$this->assertXmlStringEqualsXmlFile(${1:\$expectedFile}, ${2:\$actualXml}${3:, "${4:message}"});${0:}'
+
+  'assertXmlStringNotEqualsXmlFile':
+    'prefix': 'assertXmlStringNotEqualsXmlFile'
+    'body': '\$this->assertXmlStringNotEqualsXmlFile(${1:\$expectedFile}, ${2:\$actualXml}${3:, "${4:message}"});${0:}'
+
+  'assertXmlStringEqualsXmlString':
+    'prefix': 'assertXmlStringEqualsXmlString'
+    'body': '\$this->assertXmlStringEqualsXmlString(${1:\$expectedXml}, ${2:\$actualXml}${3:, "${4:message}"});${0:}'
+
+  'assertXmlStringNotEqualsXmlString':
+    'prefix': 'assertXmlStringNotEqualsXmlString'
+    'body': '\$this->assertXmlStringNotEqualsXmlString(${1:\$expectedXml}, ${2:\$actualXml}${3:, "${4:message}"});${0:}'
+
+  'assertEqualXMLStructure':
+    'prefix': 'assertEqualXMLStructure'
+    'body': '\$this->assertEqualXMLStructure(${1:\$expectedElement}, ${2:\$actualElement}${3:, ${4:\$checkAttributes = false}${5:, "${6:message}"}});${0:}'
+
+  'assertSelectCount':
+    'prefix': 'assertSelectCount'
+    'body': '\$this->assertSelectCount(${1:\$selector}, ${2:\$count}, ${3:\$actual}${4:, "${5:message}"${6:, ${7:\$isHtml = true}}});${0:}'
+
+  'assertSelectRegExp':
+    'prefix': 'assertSelectRegExp'
+    'body': '\$this->assertSelectRegExp(${1:\$selector}, ${2:\$pattern}, ${3:\$count}, ${4:\$actual}${5:, "${6:message}"${7:, ${8:\$isHtml = true}}});${0:}'
+
+  'assertSelectEquals':
+    'prefix': 'assertSelectEquals'
+    'body': '\$this->assertSelectEquals(${1:\$selector}, ${2:\$content}, ${3:\$count}, ${4:\$actual}${5:, "${6:message}"${7:, ${8:\$isHtml = true}}});${0:}'
+
+  'assertTag':
+    'prefix': 'assertTag'
+    'body': '\$this->assertTag(${1:\$matcher}, ${2:\$actual}${3:, "${4:message}"${5:, ${6:\$isHtml = true}}});${0:}'
+
+  'assertNotTag':
+    'prefix': 'assertNotTag'
+    'body': '\$this->assertNotTag(${1:\$matcher}, ${2:\$actual}${3:, "${4:message}"${5:, ${6:\$isHtml = true}}});${0:}'
+
+  'assertThat':
+    'prefix': 'assertThat'
+    'body': '\$this->assertThat(${1:\$value}, ${2:\$constraint}${3:, "${4:message}"});${0:}'
+
+  'assertJson':
+    'prefix': 'assertJson'
+    'body': '\$this->assertJson(${1:\$actualJson}${2:, "${3:message}"});${0:}'
+
+  'assertJsonStringEqualsJsonString':
+    'prefix': 'assertJsonStringEqualsJsonString'
+    'body': '\$this->assertJsonStringEqualsJsonString(${1:\$expectedJson}, ${2:\$actualJson}${3:, "${4:message}"});${0:}'
+
+  'assertJsonStringNotEqualsJsonString':
+    'prefix': 'assertJsonStringNotEqualsJsonString'
+    'body': '\$this->assertJsonStringNotEqualsJsonString(${1:\$expectedJson}, ${2:\$actualJson}${3:, "${4:message}"});${0:}'
+
+  'assertJsonStringEqualsJsonFile':
+    'prefix': 'assertJsonStringEqualsJsonFile'
+    'body': '\$this->assertJsonStringEqualsJsonFile(${1:\$expectedFile}, ${2:\$actualJson}${3:, "${4:message}"});${0:}'
+
+  'assertJsonStringNotEqualsJsonFile':
+    'prefix': 'assertJsonStringNotEqualsJsonFile'
+    'body': '\$this->assertJsonStringNotEqualsJsonFile(${1:\$expectedFile}, ${2:\$actualJson}${3:, "${4:message}"});${0:}'
+
+  'assertJsonFileNotEqualsJsonFile':
+    'prefix': 'assertJsonFileNotEqualsJsonFile'
+    'body': '\$this->assertJsonFileNotEqualsJsonFile(${1:\$expectedFile}, ${2:\$actualFile}${3:, "${4:message}"});${0:}'
+
+  'assertJsonFileEqualsJsonFile':
+    'prefix': 'assertJsonFileEqualsJsonFile'
+    'body': '\$this->assertJsonFileEqualsJsonFile(${1:\$expectedFile}, ${2:\$actualFile}${3:, "${4:message}"});${0:}'
