@@ -382,4 +382,4 @@
 
   'createQueryTable':
     'prefix': 'createQueryTable'
-    'body': '\$this->getConnection()->createQueryTable(${1:\'tableName\'}, ${1:\'query\'});'
+    'body': '\$this->getConnection()->createQueryTable(${1:\'tableName\'}, ${2:\'query\'});'
