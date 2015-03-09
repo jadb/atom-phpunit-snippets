@@ -371,3 +371,11 @@
   'assertJsonFileEqualsJsonFile':
     'prefix': 'assertJsonFileEqualsJsonFile'
     'body': '\$this->assertJsonFileEqualsJsonFile(${1:\$expectedFile}, ${2:\$actualFile}${3:, "${4:message}"});${0:}'
+
+  'assertTablesEqual':
+    'prefix': 'assertTablesEqual'
+    'body': '\$this->assertTablesEqual(${1:\$expectedTable}, ${2:\$queryTable}${3:, "${4:message}"});${0:}'
+
+  'assertDataSetsEqual':
+    'prefix': 'assertDataSetsEqual'
+    'body': '\$this->assertDataSetsEqual(${1:\$expectedDataSet}, ${2:\$dataSet}${3:, "${4:message}"});${0:}'
