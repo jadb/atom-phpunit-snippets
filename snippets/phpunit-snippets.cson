@@ -379,3 +379,7 @@
   'assertDataSetsEqual':
     'prefix': 'assertDataSetsEqual'
     'body': '\$this->assertDataSetsEqual(${1:\$expectedDataSet}, ${2:\$dataSet}${3:, "${4:message}"});${0:}'
+
+  'createQueryTable':
+    'prefix': 'createQueryTable'
+    'body': '\$this->getConnection()->createQueryTable(${1:\'tableName\'}, ${1:\'query\'});'
